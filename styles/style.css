@@ -1,0 +1,62 @@
+
+.navbar {
+    display: none;
+}
+
+
+nav {
+    display: flex;
+    margin: 30px;
+}
+
+nav img {
+    width: 31px;
+    height: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text_wrapper h1,p {
+    text-align: center;
+    width: 300px;
+}
+
+.text_wrapper button {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #04146C;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.with_arrow::after {
+    content: url("../assets/img/arrow.png");
+    margin: 20px 0;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: rgba(4, 20, 108, 0.05);
+    max-width: 340px;
+}

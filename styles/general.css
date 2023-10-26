@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@500&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #272D38;
+    counter-set: titles;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 75%, rgba(106,169,254,0.5998774509803921) 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+body h1,h2,h3,h4,h5,h6,span {
+    font-weight: 400;
+} 
+
+.text_center {
+    text-align: center;
+}
+
+.titulo {
+    font-weight: 700;
+}
+
+.margin_y_10 {
+    margin: 10px auto ;
+}
+.margin_y_20 {
+    margin: 20px auto ;
+}
+.margin_y_30 {
+    margin: 30px auto ;
+}
+.margin_y_40 {
+    margin: 40px auto;
+}
+.margin_y_50 {
+    margin: 50px auto ;
+}
