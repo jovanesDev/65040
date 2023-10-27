@@ -3,7 +3,6 @@
     display: none;
 }
 
-
 nav {
     display: flex;
     margin: 30px;
@@ -49,6 +48,11 @@ nav img {
     margin: 20px 0;
 }
 
+.cards_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .card {
     display: flex;
@@ -59,4 +63,76 @@ nav img {
     box-shadow: 0px 4px 4px 0px #00000040;
     background-color: rgba(4, 20, 108, 0.05);
     max-width: 340px;
+}
+
+#testimonios {
+    margin: 70px 0;
+}
+
+#testimonios h1 {
+    font-size: 40px;
+}
+
+
+#contacto {
+    display: none;
+    justify-content: space-evenly;
+    margin: 70px 0;
+}
+
+#contacto .text_wrapper {
+    align-items: start;
+}
+
+#contacto .text_wrapper h1,p {
+    text-align: start;
+}
+
+#contacto h1 {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    min-height: 580px;
+    background-color: #15163D;
+    justify-content: center;
+    
+}
+
+footer .container {
+    flex-direction: column-reverse;
+}
+
+footer .social_media ul li {
+    margin: 30px auto;
+}
+
+.social_media ul {
+    text-align: center;
+    padding: 0;
+}
+
+.social_media ul p {
+
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer_text {
+    color: white;
+    text-align: center;
+    margin: 30px auto;
+}
+.social_media ul li {
+    margin: 10px 0;
+}
+
+.agencia_wrapper:nth-child(1) {
+    text-align: center;
+    color: white;
 }
