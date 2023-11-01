@@ -5,10 +5,41 @@
         background: linear-gradient(315deg, rgba(255,255,255,1) 85%, rgb(255, 7, 7) 100%);
     }
 } */
-
-
-
 @media screen and (min-width:992px) {
+
+    nav {
+        padding: 0;
+        margin: 0;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    header {
+        display: flex;
+        margin: 20px 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-icons  {
+        position: relative;
+        display: flex;
+        margin: 0;
+        width: 40%;
+        padding-left: 40px;
+    }
+
+    #menu-icon-close,.menu-icon,.small-screen-navbar,#menu-bar-icon {
+
+        display: none;
+    }
+
+    .navbar li {
+
+        margin: 0 30px;
+    }
 
     body {
         background: rgb(255,255,255);
@@ -26,13 +57,12 @@
     }
 
     .with_arrow::after {
-
         transform: rotate(270deg);
     }
 
     .cards_wrapper {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         gap: 10px;
     }
 

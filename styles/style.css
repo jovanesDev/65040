@@ -5,12 +5,95 @@
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
     margin: 30px;
+}
+
+.header-icons { 
+    position: relative;
+    display: flex;
+    width: 95%;
+    margin: 40px auto;
+    justify-content: space-between;
+}
+
+
+#menu-bar-icon:checked + nav .small-screen-navbar {
+    top: -17px;
+}
+
+.header-icons #menu-bar-icon:checked + .header-icons #menu-icon-close {
+    display: block !;
+    z-index: 50;
+    /* background-color: white; */
+}
+
+.whatsapp-button {
+    background: #03156C;
+    border: navajowhite;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 60px;
+    width: 60px;
+}
+
+.whatsapp-button img {
+    width: 40px;
+    margin: 7px auto;
+    display: flex;
+    /* justify-items: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    align-self: center;
+ }
+
+.menu-icon {
+    display: block;
+    position:absolute;
+    top: 35px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 40;
+    font-size: 24px;
+}
+
+#menu-icon-close {
+    position:absolute;
+    top: 35px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 40 !important;
+    font-size: 24px;
+    display: none;
+}
+
+.small-screen-navbar {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-transform: uppercase;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: -240px;
+    transition: 1s ease-out;
 }
 
 nav img {
     width: 31px;
     height: 18px;
+}
+
+#menu-bar-icon {
+   opacity: 0;
+   background-color: blue;
 }
 
 .container {

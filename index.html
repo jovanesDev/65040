@@ -5,15 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/general.css" />
     <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="stylesheet" href="./styles/media-quieries.css">
+    <link rel="stylesheet" href="./styles/media-quieries.css" />
+    <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="path/to/font-awesome/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/9616e19224.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
+    <div class="whatsapp-button">
+      <a href="//wa.me/+5491123232323" target="_blank">
+        <img src="./assets/img/whatsapp.png" />
+      </a>
+    </div>
     <header>
-      <nav>
+      <div class="header-icons">
         <div>
           <img src="./assets/img/logo.png" alt="logo" />
         </div>
+      </div>
+      <label id="menu-icon-close" for="menu-bar-icon">
+        <i class="fa-regular fa-rectangle-xmark"></i>
+      </label>
+      <label class="menu-icon" for="menu-bar-icon">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+
+      <input type="checkbox" id="menu-bar-icon" />
+
+      <nav>
+        <ul class="small-screen-navbar">
+          <li><a href="">about</a></li>
+          <li><a href="">testimonios</a></li>
+          <li><a href="">contacto</a></li>
+        </ul>
         <ul class="navbar">
           <li><a href="">about</a></li>
           <li><a href="">testimonios</a></li>
@@ -120,7 +150,7 @@
 
         <div class="social_media">
           <ul>
-            <p>Agencia Digital </p>
+            <p>Agencia Digital</p>
             <li><a href="">Creando Experencia</a></li>
           </ul>
         </div>
